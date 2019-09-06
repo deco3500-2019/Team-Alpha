@@ -1,7 +1,7 @@
 # Project Name Here
 ***
 ## Link To Project Proposal
-link to wiki page here for proposal
+https://github.com/deco3500-2019/Team-Alpha/wiki/Team-Project-Proposal
 
 ## Link to Final Report
 https://github.com/deco3500-2019/TEMPLATE/wiki/Proposal
