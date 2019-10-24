@@ -1,9 +1,9 @@
 # Home Energy consumption intelligent visual system
 ***
-`## Link To Project Proposal`
+## `Link To Project Proposal`
 * [Proposal](https://github.com/deco3500-2019/Team-Alpha/wiki/Proposal)
 
-`## Link to Final Report`
+## `Link to Final Report`
 ### Design Process Overview
 * [Design Process Overview](https://github.com/deco3500-2019/Team-Alpha/wiki/Design-Process-Overview)
 ### Preliminary Work
