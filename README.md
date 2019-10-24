@@ -1,10 +1,10 @@
-# Project Name Here
+# Home Energy consumption intelligent visual system
 ***
 ## Link To Project Proposal
-https://github.com/deco3500-2019/Team-Alpha/wiki/Team-Project-Proposal
+https://github.com/deco3500-2019/Team-Alpha/wiki/Proposal
 
 ## Link to Final Report
-https://github.com/deco3500-2019/TEMPLATE/wiki/Proposal
+
 
 ## Link to Working Prototype, Promotional Material, and Documentation  
 link to relevant links for prototype, promotional material & documentation
