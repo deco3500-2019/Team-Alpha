@@ -1,4 +1,3 @@
-[toc]
 # Project Name Here
 ***
 ## Link To Project Proposal
