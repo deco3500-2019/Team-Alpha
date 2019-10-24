@@ -1,0 +1,14 @@
+#ok li:nth-child(1){
+	left:95px;
+	top: 156px;
+}
+#ok li:nth-child(2){
+	left:650px;
+	top: 180px;
+}
+body{
+	background-image: url(bg.jpg);
+	background-size:auto;
+	background-position: center center ;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,48 @@
+#ok img{
+	width: 100%;
+	height: 100%;
+}
+#ok li:nth-child(1){
+	left:195px;
+	top: 220px;
+}
+#ok li:nth-child(2){
+	left:350px;
+	top: 170px;
+}
+#ok li:nth-child(3){
+	left:600px;
+	top: 150px;
+}
+body{
+	background-image: url(bg.jpg);
+	background-size:auto;
+	background-position: center center ;
+	background-repeat: no-repeat;
+}
+#wapper{
+	background: #fff;
+	width: 760px;
+	margin-left: 300px;
+	border: 10px solid #d8d8d8;
+	margin-top: 50px;
+}
+#wapper h2{
+	margin-left:70px;
+}
+
+#wapper button,#wapper button {
+    background-color: #76c043;
+    border: none;
+    color: #fff;
+    padding: 10px 47px;
+}
+
+#wapper button:hover, .#wapper button:focus {
+    outline: none;
+    background-color: #fcb216;
+}
+#wapper button:hover, #wapper button:focus {
+    outline: none;
+    background-color: #fcb216;
+}

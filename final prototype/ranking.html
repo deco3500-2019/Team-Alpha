@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+<title>ranking</title>
+<meta charset="utf-8">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link rel="stylesheet" href="css/ok.css">
+
+<script src="js/modernizr.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/screenfull.js"></script>
+		<script>
+		$(function () {
+			$('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
+
+			if (!screenfull.enabled) {
+				return false;
+			}
+
+
+
+			$('#toggle').click(function () {
+				screenfull.toggle($('#container')[0]);
+			});
+		});
+		</script>
+
+<!-- agile-grid-right -->
+<script src="js/graph.js"></script>
+<!-- //agile-grid-right -->
+</head>
+<body class="dashboard-page">
+
+  <input type="button" name="Submit" value="back" onclick="window.location.href='index.html'" />
+
+	<section id="wapper">
+
+		<div class="main-grid">
+
+				<div class="chart-heading">
+					<h2>Comparison with average energy consumption in appartment</h2>
+				</div>
+
+				<!-- agile-grid-right -->
+				<div class="col-md-6 agile-grid-right">
+					<div class="w3l-chart">
+						<div id="graph"></div>
+					</div>
+				<div class="clearfix"> </div>
+				<!-- //agile-grid-right -->
+			</div>
+		</div>
+
+	<!-- gv-chart -->
+	<script type="text/javascript" src="js/jquery.gvChart.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				googleLoaded.done( function(){
+					$('#myTable1').gvChart({
+						chartType: 'AreaChart',
+						gvSettings: {
+							vAxis: {title: 'No of players'},
+							hAxis: {title: 'Month'},
+							height: 300
+							}
+					});
+
+
+					$('#myTable2').gvChart({
+						chartType: 'LineChart',
+						gvSettings: {
+							vAxis: {title: 'No of players'},
+							hAxis: {title: 'Month'},
+							height: 300
+							}
+					});
+
+					$('#myTable3').gvChart({
+						chartType: 'BarChart',
+						gvSettings: {
+							vAxis: {title: 'No of players'},
+							hAxis: {title: 'Month'},
+							height: 300
+							}
+					});
+
+
+					$('#myTable4').gvChart({
+						chartType: 'ColumnChart',
+						gvSettings: {
+							vAxis: {title: 'No of players'},
+							hAxis: {title: 'Month'},
+							height: 300
+							}
+					});
+
+					$('#myTable5').gvChart({
+						chartType: 'PieChart',
+						gvSettings: {
+							vAxis: {title: 'No of players'},
+							hAxis: {title: 'Month'},
+							height: 300
+							}
+					});
+				});
+			});
+		</script>
+		<!-- //gv-chart -->
+		<!-- agile-grid-right -->
+		<script>
+			$(function(){
+				$('#graph').graphify({
+					//options: true,
+					start: 'combo',
+					obj: {
+						id: 'ggg',
+						width: 720,
+						height: 375,
+						xGrid: false,
+						legend: true,
+						title: 'Your family VS others',
+						points: [
+							[7, 26, 33, 74, 12, 49, 33],
+							[32, 46, 75, 38, 62, 20, 52]
+						],
+						pointRadius: 5,
+						colors: ['blue', 'red'],
+						xDist: 120,
+						dataNames: ['Your family', 'others'],
+						xName: 'Day',
+						tooltipWidth: 30,
+						animations: true,
+						pointAnimation: true,
+						averagePointRadius: 10,
+						design: {
+							tooltipColor: '#fff',
+							gridColor: 'grey',
+							tooltipBoxColor: 'green',
+							averageLineColor: 'green',
+							pointColor: 'green',
+							lineStrokeColor: 'grey',
+						}
+					}
+				});
+
+				bar.init();
+			});
+		</script>
+		<!-- //agile-grid-right -->
+	<script src="js/bootstrap.js"></script>
+	<script src="js/proton.js"></script>
+
+</body>
+</html>
